@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Things Your Parents Would Say</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="media/img/icon.png">
+
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="assets/css/master.css">
+
+    <!-- Font icon -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <div class="container">
+        <div class="row site-title">
+          <div class="col-xs-12">
+            <h1>Things Your Parents Would Say</h1>
+          </div>
+        </div>
+        <div class="row quotes">
+          <div class="col-xs-12 col-md-8 col-md-offset-2">
+            <div class="quotes-container">
+              <p>The one and only generator that knows everyting your parents have ever said to you. Dont believe me? Try it yourself! You can switch over between your mom and dad by hitting the green button below.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 hidden-xs">
+            <div class="mother-image-container"></div>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <div class="user-input" align="center">
+              <p>Number of quotes
+              <select class="number-quotes">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select></p>
+              <p id="generate-quotes">Generate</p>
+              <!-- http://www.bootstraptoggle.com/#usage -->
+              <input id="toggle-event" data-onstyle="success"  data-offstyle="success" type="checkbox"  data-toggle="toggle" data-style="ios" data-on=" " data-off=" ">
+            </div>
+          </div>
+          <div class="col-sm-4 hidden-xs">
+            <div class="father-image-container"></div>
+          </div>
+        </div>
+        <div class="row mobile-image visible-xs">
+          <div class="col-xs-12">
+            <div class="mobile-image-container"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <!-- Bootstrap toggle -->
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+    <!-- My Scripts -->
+    <script src="assets/js/initPage.js" charset="utf-8"></script>
+    <script src="assets/js/generateQuote.js" charset="utf-8"></script>
+
+  </body>
+</html>
